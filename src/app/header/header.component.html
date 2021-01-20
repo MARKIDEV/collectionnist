@@ -1,0 +1,175 @@
+<div>
+  <div class="video-bg home-bg-video index__section index__section--heading">
+    <video
+      poster="https://cdn.lecollectionist.com/lc//production/uploads/photos/house-749/2019-08-06-8f8414367ad4e2e8be4737b96b9ce77f.jpg?q=65"
+      muted="muted"
+      autoplay="autoplay"
+      playsinline
+      loop="loop"
+      class="video-bg__player"
+    >
+      <source
+        src="https://player.vimeo.com/external/352216766.hd.mp4?s=ab2d2495c04dd0b4cb665dc94ead8aeed8d2e853&amp;profile_id=175"
+        type="video/mp4"
+      />
+    </video>
+    <div class="home-bg-video__overlay"></div>
+   
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <div class="navbar-menu">
+          
+          <a class="navbar-brand logo-style" routerLink="fr">
+            <img
+              alt="Le Collectionist Location Villa de Luxe Logo" 
+              src="https://d3pwy8zpzua7yi.cloudfront.net/img/lecollectionist-luxury-villas-rentals-holidays.1c2765c.svg"
+            />
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0 menu_list_style">
+              <li class="header_link nav-item">
+                <a class="nav-link "  routerLink="Nos-maisons"
+                  >Nos maisons</a
+                >
+              </li>
+              <li class=" header_link nav-item">
+                <a
+                  
+                  class="nav-link "
+                  aria-current="page"
+                  href="#"
+                  >Destinations</a
+                >
+              </li>
+              <li class="header_link nav-item">
+                <div>
+                  <a
+                    class="nav-link"
+                    aria-current="page"
+                    href="#"
+                    (click)="onPress()"
+                    role="button"
+                    >A propos</a
+                  >
+
+                  <div *ngIf="display">
+                    <div>
+                      <a href="#"> Dropdown item </a>
+                      <a> Other dropdown item </a>
+                      <a href="#"> Active dropdown item </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="header_link nav-item">
+                <a class="nav-link">Proprétaires</a>
+              </li>
+
+              <li class="header_link nav-item">
+                <a href="/fr/contact" class="nav-link"
+                  ><span>
+                    <fa-icon
+                      [icon]="faEnvelope"
+                      class="fa-icon"
+                    ></fa-icon> </span
+                ></a>
+              </li>
+              <li class="header_link nav-item">
+                <a class="nav-link" href="/fr/wishlist"
+                  ><span>
+                    <fa-icon [icon]="faHeart" class="fa-icon"></fa-icon> </span
+                ></a>
+              </li>
+              <li class="header_link nav-item">
+                <a href="/fr/connexion" class="nav-link">
+                  Mon compte
+                </a>
+              </li>
+              <li class="header_link  nav-item">
+                <a
+                  href="tel:+33&nbsp;1&nbsp;73&nbsp;03&nbsp;02&nbsp;02"
+                  class="nav-link"
+                  routerLink="contact"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Appelez-nous au
+                  <span class="tel-style"
+                    >+33&nbsp;1&nbsp;73&nbsp;03&nbsp;02&nbsp;02</span
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+<!--<form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>-->
+ <!--
+      
+      <div class="navbar">
+        <ul class="menu_list_style">
+          <li><a class="header_link">Nos maisons</a></li>
+          <li><a role="button" class="header_link">Destinations</a></li>
+          <li>
+            <div>
+              <a class="header_link" (click)="onPress()" role="button"
+                >A propos</a
+              >
+            </div>
+            <div *ngIf="display">
+              <div>
+                <a href="#"> Dropdown item </a>
+                <a> Other dropdown item </a>
+                <a href="#"> Active dropdown item </a>
+              </div>
+            </div>
+          </li>
+          <li><a class="header_link">Propriétaires</a></li>
+        </ul>
+        <ul class="menu_list_style">
+         
+         
+          <li>
+            <a href="/fr/connexion" class="header_link"> Mon compte </a>
+          </li>
+          <li>
+            <a
+              href="tel:+33&nbsp;1&nbsp;73&nbsp;03&nbsp;02&nbsp;02"
+              class="header_link"
+              >Appelez-nous au
+              <span class="tel-style"
+                >+33&nbsp;1&nbsp;73&nbsp;03&nbsp;02&nbsp;02</span
+              >
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <button
+      class="menu-toggler"
+      [ngClass]="{ 'site-menu-showed': showMenu }"
+      (click)="toggleMenu()"
+    ></button>
+    
+    <div class="menu" [ngClass]="{ 'site-menu-show': showMenu }">
+   ------ fonctionnelle juste css no
+      </ul>
+    </div>   *
+  *******so important to me to apply toogle-menu by ngClass, i've to review it -->
