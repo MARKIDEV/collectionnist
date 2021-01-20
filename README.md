@@ -1,7 +1,7 @@
 # Collectionnist
 
 I am using Angular to recreate part of the first page of the website lecollectionnist.fr, this is my first experience with this framework.
-
+this is the drive link of the preview video : https://drive.google.com/file/d/1p87-tZkFOpD746-1pSFdBrSrxzJ-sLN_/view
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
 
 ## Development server
